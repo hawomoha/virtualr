@@ -1,4 +1,4 @@
-import { CheckCircle2 } from "lucide-react";
+import { FaRegCheckCircle } from "react-icons/fa";
 import codeImg from "../assets/code.jpg";
 import { checklistItems } from "../constants";
 import React from "react";
@@ -20,7 +20,7 @@ const Workflow = () => {
           {checklistItems.map((item, index) => (
             <div key={index} className="flex mb-12">
               <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
-                <CheckCircle2 />
+                <FaRegCheckCircle />
               </div>
               <div>
                 <h5 className="mt-1 mb-2 text-xl">{item.title}</h5>

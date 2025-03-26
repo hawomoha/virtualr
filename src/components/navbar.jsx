@@ -1,4 +1,4 @@
-import { Menu, X } from "lucide-react";
+import { IoMenuOutline } from "react-icons/io5";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar}>
-              {mobileDrawerOpen ? <X /> : <Menu />}
+              {mobileDrawerOpen ? <X /> : <IoMenuOutline />}
             </button>
           </div>
         </div>

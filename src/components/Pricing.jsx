@@ -1,4 +1,4 @@
-import { CheckCircle2 } from "lucide-react";
+import { FaRegCheckCircle } from "react-icons/fa";
 import { pricingOptions } from "../constants";
 import React from "react";
 
@@ -27,7 +27,7 @@ const Pricing = () => {
               <ul>
                 {option.features.map((feature, index) => (
                   <li key={index} className="mt-8 flex items-center">
-                    <CheckCircle2 />
+                    <FaRegCheckCircle />
                     <span className="ml-2">{feature}</span>
                   </li>
                 ))}
